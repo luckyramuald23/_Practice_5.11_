@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url('https://www.gadae.com/blog/wp-content/uploads/dise%C3%B1o-web-Flash.jpg') bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(139, 125, 0);
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.news {
+    background-color: white;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1;
+}
+
+
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    }
+
+
+.artical-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+article:nth-child(even) {
+    background: greenyellow;
+
+}
+
+article:nth-child(1) h2::before {
+    content: "New ";
+    font-family: fantasy;
+    color: deeppink;
+}
+
+article:nth-child(2) h2::before {
+    content: "New ";
+    font-family: fantasy;
+    color: deeppink;
+}
+    
+    
+footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links{
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: rgba(235, 135, 190, 0.918);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+}
